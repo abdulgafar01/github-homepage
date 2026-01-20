@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 
-type Props = {
-}
 
-const OpenSourceNav = (props: Props) => {
+
+const OpenSourceNav = () => {
     const [show,setShow] = useState(false)
     const handleOnclick = () => {
         if (window.innerWidth < 1024 ) {
